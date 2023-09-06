@@ -4,7 +4,7 @@ fuzzer_x64.lib
 fuzzer_x86.lib
 
 ## 编译环境
-Visual Studio 16 2019
+cmake + "Visual Studio 16 2019"
 
 ## 编译过程
 
