@@ -1,9 +1,9 @@
-## WinMsvcLibfuzzer
+# WinMsvcLibfuzzer
 对于llvm编译的程序可以很方便地使用libfuzzer进行白盒fuzz，然而对于msvc编译的程序，很多人选择改用llvm重新编译一遍项目再进行fuzz，但这有很多坏处，比如说有些项目中使用的宏只有msvc编译器可以识别出来，而且换了编译器后你无法确保程序的执行路径还和原来一致，甚至部分系统api也无法保证运行结果一致。
 
 这里就是介绍如何在windows使用libfuzzer对msvc编译的程序进行白盒fuzz。
 
-## 目录
+# 目录
 
 1. examples
 
