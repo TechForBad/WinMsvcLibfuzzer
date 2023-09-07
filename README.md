@@ -8,7 +8,7 @@
 * examples  
 包含若干测试示例，构建环境：cmake + "Visual Studio 16 2019"
 * fuzzer_lib  
-包含在白盒fuzz环境搭建过程中需要的所有静态库； 
+包含在白盒fuzz环境搭建过程中需要的所有静态库；  
 其中包含了若干从"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib"目录下拷贝得到的lib库；  
 也包含了对libfuzzer源码进行一些修改后的lib库fuzzer_x64.lib和fuzzer_x86.lib；
 * src  
